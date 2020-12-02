@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 
+
 '''
 Так как задания взаимосвязанны,
 я решил объединить все в один файл
@@ -9,7 +10,7 @@ import numpy as np
 '''
 authors = pd.DataFrame({
                         "author_id":  [1, 2, 3,],
-                        "author_name": ['Тургенев', 'Чехов', 'Островский',]
+                        "author_name": ['Тургенев', 'Чехов ', 'Островский',]
                        })
 
 book = pd.DataFrame({
